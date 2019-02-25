@@ -1,0 +1,35 @@
+h1 {
+    color: red;
+}
+
+.burger {
+    width: 100px;
+}
+
+.facebook-logo {
+    width: 100px;
+}
+
+.instagram-logo {
+    width: 100px;
+}
+
+.youtube-logo {
+    width: 150px;
+}
+
+body {
+    color: black;
+}
+
+.menu {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    border: solid 1px red;
+}
+
+.menu a {
+    border-right: solid 1px red;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form-page</title>
+</head>
+<body>
+    <nav><a href="index.html">Home Page</a></nav>
+    <h1>Ваші дані</h1>
+    
+    <label for="email-input">Ім'я:</label>
+        <input type="text" placeholder="Ваше ім'я" name="ім'я" id="username-input" />
+    </label>
+      <br />
+      <label for="email-input">Адреса</label>
+      <input type="email" placeholder="Ваша адреса" name="user-adress" id="adress-input" /> <br />
+      <label>
+        <select>
+            <option value="food">--Виберіть бургер--</option>
+            <option value="Maestro">Маестро бургер</option>
+            <option value="Burger">Гамбургер</option>
+            <option value="Cheeseburger">Чізбургер</option>
+            
+        </select>
+    </label> 
+    <label>
+        <select>
+            <option value="smthtdrink">--Виберіть напій--</option>
+            <option value="cola">Coca-cola</option>
+            <option value="sprite">Sprite</option>
+            <option value="juice">Сік</option>
+            <option value="tea">Чай</option>
+            <option value="coffe">Кава</option>
+        </select>
+    </label> 
+    <form method="POST" action="https://formspree.io/valeriyanester@gmail.com">
+            <input type="submit">
+            </form>
+      
